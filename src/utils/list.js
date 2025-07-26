@@ -9,7 +9,8 @@ const reslist=[
     model: "WH-1000XM3",
     color: "silver",
     category: "audio",
-    discount: 11
+    discount: 11,
+    avgRating:4.4
   },
   {
     id: 2,
@@ -22,7 +23,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:4.1
   },
   {
     id: 3,
@@ -35,7 +37,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:3.9
   },
     
     {
@@ -49,7 +52,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:3.4
   },
       {
     id: 5,
@@ -62,7 +66,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:3.9
   },
     {
     id: 6,
@@ -75,7 +80,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:3.8,
   },
      {
     id: 7,
@@ -88,7 +94,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:4.3
   },
      {
     id: 8,
@@ -101,7 +108,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:3.7
   },
      {
     id: 9,
@@ -114,7 +122,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:4.0
   },
      {
     id: 10,
@@ -127,7 +136,8 @@ const reslist=[
     color: "white",
     category: "gaming",
     popular: true,
-    discount: 4
+    discount: 4,
+    avgRating:3.6
   },
   
 ]

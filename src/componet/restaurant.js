@@ -1,14 +1,13 @@
-import { IMG_URL } from "../utils/constant";
-import reslist from "../utils/list";
+
 const RestaurantCard=(props)=>{
     const{resData}=props
-    const{title,price,description,brand,model,color,category,discount}=resData.data;
+    const{title,price,description,brand,model,color,category,discount,avgRating,image}=resData
     return(
         <div className="res-card" style={{backgroundColor:"#f0f0f0"}}>
             <img 
             className="res-logo"
             alt="res-logo"
-            src={IMG_URL}/>
+            src={image}/>
             <h3>{title}</h3>
             <h4>{price}</h4>
             <h4>{description}</h4>
@@ -17,6 +16,7 @@ const RestaurantCard=(props)=>{
             <h4>{color}</h4>
             <h4>{category}</h4>
             <h4>{discount}</h4>
+            <h4>{avgRating}</h4>
         </div>
     )
 }
